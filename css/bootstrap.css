@@ -5409,3 +5409,12 @@ td.visible-print {
   color: #999 !important;
   background-color: transparent !important;
 }
+.header {
+  background: #141414;
+}
+#navbar {
+  background-image: -webkit-linear-gradient(top, #2b2b2b 0%, #121212 100%);
+  background-image: linear-gradient(to bottom, #2b2b2b 0%, #121212 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2b2b2b', endColorstr='#ff121212', GradientType=0);
+}
